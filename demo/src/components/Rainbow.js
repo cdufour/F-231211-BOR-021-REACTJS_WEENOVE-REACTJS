@@ -32,10 +32,10 @@ export default class Rainbow extends React.Component {
     change() {
         console.log('change')
         const newColor = '#'+Math.floor(Math.random()*MAXCOLORS).toString(16)
-        // this.setState({ 
-        //     backgroundColor: newColor,
-        //     width: this.state.width += 10
-        // })
+        this.setState({ 
+            backgroundColor: newColor,
+            width: this.state.width += 10
+        })
     }
 
     stopAnim() {
@@ -49,10 +49,10 @@ export default class Rainbow extends React.Component {
     }
 
     toggleAnim() {
-        if (this.state.intervalId !== 0) {
-            this.stopAnim()
+        if (this.state.intervalId === 0) {
+            this.startAnim(this.props.speed)
         } else {
-            this.startAnim()
+            this.stopAnim()
         }
     }
 
@@ -70,7 +70,7 @@ export default class Rainbow extends React.Component {
         return (
             <>
                 <div style={style}></div>
-                <button onClick={() => this.toggleAnim()}>{btnTxt}</button>
+                <button onClick={ () => this.toggleAnim() }>{btnTxt}</button>
             </>
             
         )

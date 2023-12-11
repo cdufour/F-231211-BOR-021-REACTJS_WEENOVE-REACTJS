@@ -21,7 +21,7 @@ export default function RainbowWrapper() {
             onChange={() => setChecked(!checked)} 
         />
         <label>{checked ? 'Masquer' : 'Afficher'}</label>
-        { checked ? <Rainbow initColor="black" speed={2000} /> : null }
+        { checked ? <Rainbow initColor="black" speed={1000} /> : null }
         </>
     )
 
