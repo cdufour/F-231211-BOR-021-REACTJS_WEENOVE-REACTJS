@@ -1,0 +1,12 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Truc formidable"
+        },
+        {
+            "id": 2,
+            "name": "Truc fantastique"
+        }
+    ]
+}
