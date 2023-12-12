@@ -37,3 +37,18 @@ Ce composant affichera un niveau de disponibilité d'un produit, sous forme, au 
     high (supérieur à 50), vert
 
 Faire de ce composant, un composant enfant du composant ProductCard
+
+
+Exo4
+A la suite de l'ajout d'un produit:
+1/ afficher un message dans l'interface du style "produit ajouté avec succès"
+2/ mettre à jour la liste des produits
+
+Exo5
+Ajouter fonctionnalité de suppression de produit
+DELETE products/{product_id}
+
+Exo6
+1/ Ajoute de la navigation sur les noms de produit
+du composant ProductList
+2/ Donner au formulaire (ProductForm) une route spécifique
