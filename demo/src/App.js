@@ -1,10 +1,10 @@
 //import './App.css';
 import Counter from './components/Counter';
-import Rainbow from './components/Rainbow';
-import RainbowWrapper from './components/RainbowWrapper';
+import RainbowWrapper from './components/exos/RainbowWrapper';
 import Lorem from './components/exos/Lorem';
 import { Simple, Simple2, Simple3, Simple4, Simple5 } 
   from './components/simples';
+import ProductList from './products/ProductList';
 
 
 export default function App() {
@@ -12,7 +12,10 @@ export default function App() {
   return (
     <div className="App">
       <h1>Formation Reactjs</h1>
+
+      <ProductList />
    
+      {/* 
       <RainbowWrapper />
 
       <Counter />
@@ -27,6 +30,7 @@ export default function App() {
       <Simple4 accessible={false} />
       <Simple5 operand1={4} operand2={2} operator="add" />
       <Simple5 operand1={4} operand2={2} operator="mult" />
+      */}
     </div>
   );
 }

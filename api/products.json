@@ -2,11 +2,24 @@
     "products": [
         {
             "id": 1,
-            "name": "Truc formidable"
+            "name": "Truc formidable",
+            "stock": 10,
+            "price": 14.9,
+            "online": true
         },
         {
             "id": 2,
-            "name": "Truc fantastique"
+            "name": "Truc fantastique",
+            "stock": 4,
+            "price": 52,
+            "online": false
+        },
+        {
+            "id": 3,
+            "name": "Truc extraordinaire",
+            "stock": 120,
+            "price": 5.6,
+            "online": true
         }
     ]
 }

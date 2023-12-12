@@ -23,3 +23,17 @@ Tip: Javascript dispose de setInterval
 Exo2 - complément - modification du composant Rainbow
 A l'intervalle, la forme initiale (100x100) augement en largeur de 10
 Exemple: 100 => 110 => 120
+
+
+Exo3 - Composant "StockLevel"
+Créer et utiliser un composant fonctionnel StockLevel
+Ce composant affichera un niveau de disponibilité d'un produit, sous forme, au choix:
+- textuelle: le niveau de stock sera affiché avec une couleur variable
+- graphique: le niveau de stock sera affiché via un rect svg (https://www.w3schools.com/graphics/svg_rect.asp)
+
+3 niveaux: 
+    low (entre 0 et 10), rouge
+    medium (entre 11 et 50), orange
+    high (supérieur à 50), vert
+
+Faire de ce composant, un composant enfant du composant ProductCard
