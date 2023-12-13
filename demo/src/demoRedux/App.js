@@ -9,12 +9,10 @@ export default function App() {
   return (
     <>
         <Provider store={store}>
-            <div>App</div>
+          <Products />
             <Demo />
             <Demo2 />
-            <Products />
         </Provider>
     </>
-    
   )
 }

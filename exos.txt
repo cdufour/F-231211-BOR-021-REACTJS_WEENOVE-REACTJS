@@ -52,3 +52,26 @@ Exo6
 1/ Ajoute de la navigation sur les noms de produit
 du composant ProductList
 2/ Donner au formulaire (ProductForm) une route spécifique
+
+
+Exo7
+Ajouter un reducer (synchrone - pas de requête ajax) deleteProductById
+Tester ce reducer (action) depuis un composant
+
+Exo8
+Créer une route /posts/list
+Cette route affichera les dix premier posts depuis ce endpoint:
+https://jsonplaceholder.typicode.com/posts
+Créer/utiliser un composant fonctionnel "Post" pour le rendu du post
+
+Exo9
+Créer un composant LangSwitcher qui propose
+un menu déroulant avec plusieurs langues (it, en, etc)
+Le changement de langue met à jour contexte
+
+
+Exo10 - Composant de classe "Slideshow"
+Recréez sous forme d'un composant React le slideshow dont
+vous trouverez le code source ici: https://github.com/cdufour/ajc-formation-javascript/tree/master/slideshow
+Basez-vous sur la fonction "animation1()" du fichier script.js
+Placez les images des villes dans public/images

@@ -6,7 +6,7 @@ import { API } from '../products/config'
 export const fetchProducts = createAsyncThunk('product/fetchProducts', () => {
     return fetch(API)
         .then(res => res.json())
-        .then(products => products)
+        //.then(products => products)
 })
 
 export const productSlice = createSlice({
